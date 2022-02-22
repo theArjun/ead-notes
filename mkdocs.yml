@@ -94,5 +94,7 @@ plugins:
 nav:
   - README.md
   - Software Development Methodologies:
+    - AGILE: software-development-methodologies/AGILE.md
+    - AGILE Methodologies : software-development-methodologies/AGILE_METHODOLOGY.md
     - BDD: software-development-methodologies/BDD.md
     - TDD: software-development-methodologies/TDD.md
