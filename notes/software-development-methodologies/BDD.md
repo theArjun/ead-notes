@@ -13,7 +13,7 @@ BDD is considered an effective technical practice especially then the problem sp
 
 ## Principles of BDD
 1. BDD specifies that tests of any unit of software should be specified in terms of the desired behavior of the unit.
-2. BDD, also related to howt othe desired behaviour should be specified.
+2. BDD, also related to how the desired behaviour should be specified.
 3. BDD specified business analysis and developer should collaborate and should specify behaviour in terms of user stories.
 
 
