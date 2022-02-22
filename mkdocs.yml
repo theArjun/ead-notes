@@ -1,0 +1,97 @@
+site_name: EAD Notes
+site_url: https://github.com/thearjun/ead-notes
+docs_dir: notes/
+theme:
+  name: material
+  favicon: 'assets/images/java.png'
+  logo: 'assets/images/java.png'
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  language: en
+  features:
+    # - header.autohide
+    - navigation.tabs
+    # - navigation.instant
+  icon:
+    repo: fontawesome/brands/github
+
+copyright: Copyright &copy; 2022 Arjun Adhikari
+repo_url: https://github.com/thearjun/ead-notes
+repo_name: thearjun/ead-notes
+edit_uri: "https://github.com/thearjun/ead-notes/tree/master/notes/"
+markdown_extensions:
+  - meta
+  - abbr
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - pymdownx.highlight:
+      linenums_style: pymdownx.inline
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.keys
+  - pymdownx.tabbed
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.smartsymbols
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.arithmatex:
+      generic: true
+google_analytics:
+  - UA-123982482-1
+  - auto
+extra:
+  generator: false
+  disqus: thearjun
+  manifest: manifest.webmanifest
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/thearjun
+    - icon: fontawesome/brands/github
+      link: https://github.com/thearjun
+    - icon: fontawesome/solid/envelope
+      link: mailto:mailarjunadhikari@gmail.com
+    - icon: fontawesome/solid/user
+      link: https://www.upwork.com/freelancers/~017a123f27939046d8
+
+extra_javascript:
+  - assets/javascripts/extra.js
+  - assets/javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+extra_css:
+  - assets/stylesheets/extra.css
+
+plugins:
+  - search
+  - macros:
+      include_dir: notes
+nav:
+  - README.md
+  - Software Development Methodologies:
+    - BDD: software-development-methodologies/BDD.md
