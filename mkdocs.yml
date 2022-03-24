@@ -100,6 +100,10 @@ nav:
       - Data Exchange Formats: 
         - introduction/web-technologies-concepts/data-exchange-formats.md
         - Conversion between Data Exchange Formats: introduction/web-technologies-concepts/data-format-conversion.md
+
+  - Software Security:
+    - software-security/introduction.md
+    - Basic Attacks: software-security/basic-attacks.md
   - Software Development Methodologies:
     - AGILE: 
       - software-development-methodologies/agile.md
