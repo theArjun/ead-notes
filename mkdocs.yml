@@ -104,6 +104,7 @@ nav:
   - Software Security:
     - software-security/introduction.md
     - Basic Attacks: software-security/basic-attacks.md
+    - State Based Attacks: software-security/state-based-attacks.md
   - Software Development Methodologies:
     - AGILE: 
       - software-development-methodologies/agile.md

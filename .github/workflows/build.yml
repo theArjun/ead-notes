@@ -1,5 +1,8 @@
 name: Create Java notes site with MKDOCS
 on:
+  workflow_dispatch:
+    branches:
+      - master
   push:
     branches:
       - master
