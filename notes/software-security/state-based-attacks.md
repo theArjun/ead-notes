@@ -4,9 +4,38 @@ description: State based attacks in Software Security
 ---
 
 The last-known or current status of an application or a process. The terms maintaining state and/or managing state refer to keeping track of the condition of the process.
-
 The Internet is intrinsically stateless because each request for a new Web page is processed without any knowledge of previous pages requested. This is one of the chief drawbacks to the HTTP protocol. Because maintaining state is extremely useful, programmers have developed a number of techniques to add state to the World Wide Web. These include server APIs, such as NSAPI and ISAPI, and the use of cookies. 
 
+
+> In simple words,
+
+- Web is stateless.  
+- Server doesn't care what page or what order is requested.  
+- Web has no built mechanism  that specifies which sequence of webpages and forms are presented to user.  
+- This aspect of web is statelessness.  
+
+> Concerns regarding state:
+
+
+- What if our service require certain order ?  
+- What if server must keep track of requests ?
+- How can developer achieve statefulness ?
+
+## Acheive Statefulness
+- Hidden Fields
+    - Hidden fields are used to store data that is not visible to the user.
+    - Changing the values of those fields may change the behavior of the application.
+    - These fields may contain information like: user name, session id, etc.
+- GET or POST parameters ( Common Gateway Interface - CGI )
+    - GET parameters are used to pass data to the server through query parameters in unencrypted form.
+    - POST parameters are used to pass data to the server through request body in encrypted form.
+    - If we alter those parameters, the behavior of the application may change.
+- Cookies
+    - Cookies Poisoning
+        - Changing the values of the cookie.
+- Sessions 
+    - Session Hijacking
+        - Gaining access to another user's session.
 
 ## Cookie Poisoning
 
@@ -16,7 +45,7 @@ The Internet is intrinsically stateless because each request for a new Web page 
 A cookie is a piece of information that gets added to a user's device when they visit a website. It records their preferences as they use the website and is retrieved later by websites and web servers to do the following:
 
 - authenticate the user's identity;
-- speed up transactions -- for example, on banking or e-commerce websites;
+- speed up transactions - for example, on banking or e-commerce websites;
 - monitor user behavior;
 - auto fill personal information on web forms;
 - track items in shopping carts; and
@@ -56,6 +85,6 @@ Cookie poisoning attacks usually target user session cookies. Cookie-based attac
 
 Examples of such attacks include the following:
 
-- Session hijacking. When a legitimate user is logged in to a website, attackers use their knowledge of the current session cookie to take over the user's session.
-- Session spoofing. Attackers use stolen or forged session tokens to start a new session and impersonate the legitimate user. This type of attack requires no user interaction and can be initiated even when the user is not logged in to the website.
-- Session fixation. Attackers send a known session identifier via a phishing email or other means and fool a legitimate user into using this identifier to log in to a vulnerable or malicious site. The attacker then hijacks the user session.
+- **Session hijacking**. When a legitimate user is logged in to a website, attackers use their knowledge of the current session cookie to take over the user's session.
+- **Session spoofing**. Attackers use stolen or forged session tokens to start a new session and impersonate the legitimate user. This type of attack requires no user interaction and can be initiated even when the user is not logged in to the website.
+- **Session fixation**. Attackers send a known session identifier via a phishing email or other means and fool a legitimate user into using this identifier to log in to a vulnerable or malicious site. The attacker then hijacks the user session.

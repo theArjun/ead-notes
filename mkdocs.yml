@@ -106,6 +106,9 @@ nav:
     - Basic Attacks: software-security/basic-attacks.md
     - State Based Attacks: software-security/state-based-attacks.md
     - Client Side Authentication: software-security/client-side-authentication.md
+    - Cross Site Scripting: software-security/cross-site-scripting.md
+    - Denial of Service: software-security/dos.md
+    - SQL Injection: software-security/sql-injection.md
   - Software Development Methodologies:
     - AGILE: 
       - software-development-methodologies/agile.md
