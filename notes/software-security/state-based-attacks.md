@@ -42,7 +42,7 @@ Let's visualize a scenario to understand the role of cookies:
   - Once the user logs out, the session is automatically destroyed on the client and server
   - However, the cookie data continues to remain on the user's hard disk -- meaning the cookie persists -- if they have checked the Remember me or Keep me logged in options.
   
-![Cookies](../assets/images/cookie-poisoning.png)
+![Cookies](assets/images/cookie-poisoning.png)
 
 ### 1.4. How cookie poisoning works
 
