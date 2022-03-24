@@ -31,7 +31,8 @@ serve different purposes.
  - J2EE - Servlets, EJB, Middleware Service, JSP
  - J2ME - Wireless Messaging, Mobile XML etc.
 
-Java is widely used for developing enterprise applications (EA) because:
+Java is widely used for developing enterprise applications (EA) because:  
+
 1. Learning Curve
 2. Java has a vast array of libraries, frameworks, tools and server provider.
 3. Platform indeependence.
