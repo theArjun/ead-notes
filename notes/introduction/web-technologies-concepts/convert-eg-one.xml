@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <id>file</id>
+    <value>File</value>
+    <popup>
+        <menuitem>
+            <value>New</value>
+            <onclick>CreateNewDoc()</onclick>
+        </menuitem>
+        <menuitem>
+            <value>Open</value>
+            <onclick>openDoc()</onclick>
+        </menuitem>
+        <menuitem>
+            <value>Close</value>
+            <onclick>CloseDoc()</onclick>
+        </menuitem>
+    </popup>
+</menu>

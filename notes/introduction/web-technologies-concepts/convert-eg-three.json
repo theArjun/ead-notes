@@ -1,0 +1,29 @@
+{
+    "order": {
+        "@id": "1234",
+        "@data": "234234",
+        "customer": {
+            "@first_name": "John",
+            "@last_name": "Doe",
+            "email": "johndoe@gamil.com",
+            "phone": "123456789"
+        },
+        "content": {
+            "order_lines": [{
+                "@item": "H252",
+                "@quantity": "2",
+                "unit_price": 10.00
+            }, {
+                "@item": "H253",
+                "@quantity": "1",
+                "unit_price": 20.00
+            }],
+            "credit_card": {
+                "@number": "1234123412341234",
+                "@expiry": "12/12",
+                "@cvv": "123",
+                "@type": "Visa"
+            }
+        }
+    }
+}

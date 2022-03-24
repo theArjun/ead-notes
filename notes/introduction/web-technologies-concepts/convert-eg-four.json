@@ -1,0 +1,18 @@
+{
+    "country": [{
+            "name": "Nepal",
+            "capital": "Kathmandu",
+            "feature": "Everest"
+        },
+        {
+            "name": "India",
+            "capital": "New Delhi",
+            "feature": "Taj Mahal"
+        },
+        {
+            "name": "China",
+            "capital": "Beijing",
+            "feature": "Great Wall"
+        }
+    ]
+}

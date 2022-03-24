@@ -93,6 +93,12 @@ plugins:
       include_dir: notes
 nav:
   - README.md
+  - Introduction:
+    - Web Technology Concepts:
+      - introduction/enterprise-application-architecture/introduction.md
+      - Data Exchange Formats: 
+        - introduction/web-technologies-concepts/data-exchange-formats.md
+        - Conversion between Data Exchange Formats: introduction/web-technologies-concepts/data-format-conversion.md
   - Software Development Methodologies:
     - AGILE: software-development-methodologies/AGILE.md
     - AGILE Methodologies : software-development-methodologies/AGILE_METHODOLOGY.md
