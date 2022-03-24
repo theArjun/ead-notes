@@ -1,6 +1,5 @@
-name: Create Java notes site with MKDOCS
+name: Create EAD notes site with MKDOCS
 on:
-  workflow_dispatch:
   push:
     branches:
       - master
