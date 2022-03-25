@@ -18,10 +18,19 @@ BDD is considered an effective technical practice especially then the problem sp
 
 
 > Scenario/Story:   
-Returns got tot stock.
+Returns got stock.
 
 > As a:  
 Store Owner
 
 > In order to keep track of stock,  
 > I want to add items back to stock when they're returned.
+
+---
+
+> Scenario/Story:
+Refunded item should be returned to stock.
+
+> Given that a customer previously brought a black sweaters from the store.    
+> And I have there 3 black sweaters in stock.  
+> When they return the black sweater for a refund, Then, there should have 4 black sweaters in stock.  
