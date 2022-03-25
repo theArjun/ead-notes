@@ -6,23 +6,9 @@ theme:
   favicon: 'assets/images/java.png'
   logo: 'assets/images/java.png'
   palette:
-    # Light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: teal
-      accent: teal
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
-
-    # Dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: teal
-      accent: teal
-      toggle:
-        icon: material/weather-night
-        name: Switch to light mode
+    scheme: default
+    primary: teal
+    accent: teal
   font:
     text: Roboto
     code: Roboto Mono
@@ -94,14 +80,42 @@ plugins:
 nav:
   - README.md
   - Introduction:
-    - Web Technology Concepts:
+    - Enterprise Application Architecture: 
       - introduction/enterprise-application-architecture/introduction.md
       - Platform for Enterprise Solutions: introduction/enterprise-application-architecture/platform-for-enterprise-solutions.md
+      - Enterprise Architecture Framework: introduction/enterprise-application-architecture/enterprise-application-framework.md
+    - Web Technology Concepts:
+      - Protocols: introduction/web-technologies-concepts/protocols.md
+      - Communication Types: introduction/web-technologies-concepts/communication-types.md
       - Data Exchange Formats: 
         - introduction/web-technologies-concepts/data-exchange-formats.md
         - Conversion between Data Exchange Formats: introduction/web-technologies-concepts/data-format-conversion.md
 
-  - Software Security:
+  - Development Process Management:
+    - Source Code Management: development-process-management/source-code-management.md
+    - Continuous Integration: development-process-management/continuous-integration.md
+    - Software Testing: development-process-management/software-testing.md
+    - Software Documentation: development-process-management/software-documentation.md
+
+  - Design Patterns:
+    - Introduction: design-patterns/introduction.md
+    - Types of Patterns: design-patterns/types-of-patterns.md
+    - Dependency Injection and Inversion of Control: design-patterns/di-and-ioc.md
+    - Factory Pattern: design-patterns/factory-pattern.md
+    - Singleton Pattern: design-patterns/singleton-pattern.md
+    - Lazy Initialization: design-patterns/lazy-initialization.md
+
+  - Web App Architecture:
+    - Layered Architecture: web-application-architecture/layered-architecture-for-web-applications.md
+    - MVC Pattern: web-application-architecture/mvc-pattern.md
+
+  - SOA and RESTful:
+    - Resource Oriented Architecture: soa-and-restful/resource-oriented-architecture.md
+    - Analysis and Design:
+      - Read Only Resource Oriented Services: soa-and-restful/roa-analysis-and-design/read-only.md
+      - Read Write Resource Oriented Services: soa-and-restful/roa-analysis-and-design/read-write.md
+  
+  - Security:
     - software-security/introduction.md
     - Basic Attacks: software-security/basic-attacks.md
     - State Based Attacks: software-security/state-based-attacks.md
@@ -109,7 +123,8 @@ nav:
     - Cross Site Scripting: software-security/cross-site-scripting.md
     - Denial of Service: software-security/dos.md
     - SQL Injection: software-security/sql-injection.md
-  - Software Development Methodologies:
+
+  - Development Methodologies:
     - AGILE: 
       - Principles: software-development-methodologies/agile.md
       - Methodologies : software-development-methodologies/agile-methodologies.md
