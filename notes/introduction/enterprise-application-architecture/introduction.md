@@ -3,6 +3,14 @@ title: Introduction
 description: Introduction to Enterprise Application Architecture
 ---
 
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico" rel="stylesheet"> 
+
+> ✍ **Arjun Adhikari**, Django & Python Developer
+
+**Enterprise app development** is the process of creating applications for large businesses that are customized to their complex business requirements. These applications can be deployed on the cloud across a variety of platforms and networks. 
+![EAD Picture](https://www.6degreesit.com/wp-content/uploads/2019/03/enterprise-app-development.png)
+
 ## Enterprise
 - Enterprise essentially means that the company has multiple levels,
   locations, division or departments that all collborate to achieve

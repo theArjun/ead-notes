@@ -53,7 +53,6 @@ google_analytics:
   - auto
 extra:
   generator: false
-  disqus: thearjun
   manifest: manifest.webmanifest
   social:
     - icon: fontawesome/brands/linkedin
@@ -75,10 +74,19 @@ extra_css:
 
 plugins:
   - search
+  - with-pdf:
+      author: Arjun Adhikari
+      copyright: Copyright &copy; 2022 Arjun Adhikari
+      cover: True
+      cover_title: Enterprise Application Development Notes
+      cover_subtitle: Notes for PU Syllabus
+      toc_level: 3
+      exclude_pages: 
+        - '/'
+
   - macros:
       include_dir: notes
 nav:
-  - README.md
   - Introduction:
     - Enterprise Application Architecture: 
       - introduction/enterprise-application-architecture/introduction.md
@@ -87,6 +95,7 @@ nav:
     - Web Technology Concepts:
       - Protocols: introduction/web-technologies-concepts/protocols.md
       - Communication Types: introduction/web-technologies-concepts/communication-types.md
+      - Web Services: introduction/web-technologies-concepts/web-services.md
       - Data Exchange Formats: 
         - introduction/web-technologies-concepts/data-exchange-formats.md
         - Conversion between Data Exchange Formats: introduction/web-technologies-concepts/data-format-conversion.md
@@ -101,6 +110,7 @@ nav:
     - Introduction: design-patterns/introduction.md
     - Types of Patterns: design-patterns/types-of-patterns.md
     - Dependency Injection and Inversion of Control: design-patterns/di-and-ioc.md
+    - Convention vs Configuration: design-patterns/convention-vs-configuration.md
     - Factory Pattern: design-patterns/factory-pattern.md
     - Singleton Pattern: design-patterns/singleton-pattern.md
     - Lazy Initialization: design-patterns/lazy-initialization.md
