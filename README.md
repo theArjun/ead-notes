@@ -18,9 +18,9 @@
 ---
 
   - [ ] Design Patterns
-    - [ ] Introduction
-    - [ ] Types of Patterns
-    - [ ] Dependency Injection and Inversion of Control
+    - [x] Introduction
+    - [x] Types of Patterns
+    - [x] Dependency Injection and Inversion of Control
     - [ ] Factory Pattern
     - [ ] Singleton Pattern
     - [ ] Lazy Initialization
