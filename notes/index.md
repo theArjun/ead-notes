@@ -20,14 +20,14 @@ description: Progress of the note completion
     - [ ] Software Documentation
 ---
 
-  - [ ] Design Patterns
+  - [x] Design Patterns
     - [x] Introduction
     - [x] Types of Patterns
     - [x] Dependency Injection and Inversion of Control
     - [x] Convention vs Configuration
     - [x] Factory Pattern
-    - [ ] Singleton Pattern
-    - [ ] Lazy Initialization
+    - [x] Singleton Pattern
+    - [x] Lazy Initialization
 ---
 
   - [ ] Web App Architecture:
