@@ -20,6 +20,7 @@ description: List of abbreviations used in the code.
 | UDDI    |  Universal Description Discovery and Integration |
 | ebXML   |  Electronic Business XML                         |
 | XSD     |  XML Schema Definition                           |
+| XMLNS   |  XML Namespace                                   |
 | XSI     |  XML Schema Instance                             |
 | UML     |  Unified Modeling Language                       |
 | MVC     |  Model View Controller                           |
