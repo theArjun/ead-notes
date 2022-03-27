@@ -68,3 +68,16 @@ Get the only object from the singleton class.
 ```
 {% include 'design-patterns/singleton-code/counter_output.txt' %}
 ```
+### Database Connection
+
+#### Early Initialization
+`JDBCSingletonEarly.java`
+```java
+{% include 'design-patterns/singleton-code/JDBCSingletonEarly.java' %}
+```
+
+#### Lazy Initialization
+`JDBCSingletonLazy.java`
+```java
+{% include 'design-patterns/singleton-code/JDBCSingletonLazy.java' %}
+```
