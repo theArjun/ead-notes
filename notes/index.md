@@ -24,6 +24,7 @@ description: Progress of the note completion
     - [x] Introduction
     - [x] Types of Patterns
     - [x] Dependency Injection and Inversion of Control
+    - [ ] Convention vs Configuration
     - [ ] Factory Pattern
     - [ ] Singleton Pattern
     - [ ] Lazy Initialization

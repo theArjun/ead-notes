@@ -133,7 +133,7 @@ nav:
 
   - Development Methodologies:
     - AGILE: 
-      - Principles: software-development-methodologies/agile.md
+      - Principles: software-development-methodologies/agile-principles.md
       - Methodologies : software-development-methodologies/agile-methodologies.md
     - Test Driven Development (TDD): software-development-methodologies/test-driven-development.md
     - Behaviour Driven Development (BDD): software-development-methodologies/behaviour-driven-development.md
