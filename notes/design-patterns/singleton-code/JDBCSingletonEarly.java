@@ -18,4 +18,8 @@ class JDBCSingletonEarly {
         con = DriverManager.getConnection(DB_URL, USER, PASS);
         return con;
     }
+
+    public static JDBCSingletonEarly getInstance() {
+        return jdbc;
+    }
 }
