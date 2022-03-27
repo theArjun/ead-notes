@@ -50,3 +50,21 @@ Get the only object from the singleton class.
 ```
 {% include 'design-patterns/singleton-code/output.txt' %}
 ```
+
+
+## Example:
+### Counter
+
+`Counter.java`
+```java
+{% include 'design-patterns/singleton-code/Counter.java' %}
+```
+`SingleCounterDemo.java`
+```java
+{% include 'design-patterns/singleton-code/SingleCounterDemo.java' %}
+```
+
+`Output`
+```
+{% include 'design-patterns/singleton-code/counter_output.txt' %}
+```
