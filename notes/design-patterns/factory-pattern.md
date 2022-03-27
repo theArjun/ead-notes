@@ -67,3 +67,9 @@ Use the Factory to get object of concrete class by passing an information such a
 ```java
 {% include 'design-patterns/factory-code/FactoryPatternDemo.java' %}
 ```
+
+> Output
+
+```
+{% include 'design-patterns/factory-code/output.txt' %}
+```
