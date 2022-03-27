@@ -83,8 +83,8 @@ plugins:
   - macros:
       include_dir: notes
 nav:
-  - index.md
   - Introduction:
+    - index.md
     - Enterprise Application Architecture: 
       - introduction/enterprise-application-architecture/introduction.md
       - Platform for Enterprise Solutions: introduction/enterprise-application-architecture/platform-for-enterprise-solutions.md

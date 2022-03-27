@@ -1,5 +1,5 @@
 ---
-title: Note Progress
+title: Progress
 description: Progress of the note completion
 ---
 
