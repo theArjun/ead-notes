@@ -1,4 +1,7 @@
-# Note Completion Progress
+---
+title: Note Progress
+description: Progress of the note completion
+---
 
 - [ ] Introduction
     - [ ] Enterprise Application Architecture
@@ -34,8 +37,8 @@
   - [ ] SOA and RESTful:
     - [ ] Resource Oriented Architecture
     - [ ] Analysis and Design:
-      - [ ] Read Only Resource Oriented Services
-      - [ ] Read Write Resource Oriented Services
+        - [ ] Read Only Resource Oriented Services
+        - [ ] Read Write Resource Oriented Services
 ---
 
   - [x] Security:
@@ -49,7 +52,7 @@
 
   - [x] Development Methodologies:
     - [x] AGILE: 
-      - [x] Principles
-      - [x] Methodologies
+        - [x] Principles
+        - [x] Methodologies
     - [x] Test Driven Development (TDD)
     - [x] Behaviour Driven Development (BDD)

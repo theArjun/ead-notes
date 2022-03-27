@@ -1,5 +1,4 @@
 site_name: EAD Notes
-site_url: https://github.com/thearjun/ead-notes
 docs_dir: notes/
 theme:
   name: material
@@ -22,7 +21,7 @@ theme:
 
 copyright: Copyright &copy; 2022 Arjun Adhikari
 repo_url: https://github.com/thearjun/ead-notes
-repo_name: thearjun/ead-notes
+repo_name: EAD Notes
 edit_uri: "https://github.com/thearjun/ead-notes/tree/master/notes/"
 markdown_extensions:
   - meta
@@ -42,15 +41,12 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
-  - pymdownx.smartsymbols
+  - pymdownx.smartsymbols 
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.arithmatex:
       generic: true
-google_analytics:
-  - UA-123982482-1
-  - auto
 extra:
   generator: false
   manifest: manifest.webmanifest
@@ -87,6 +83,7 @@ plugins:
   - macros:
       include_dir: notes
 nav:
+  - index.md
   - Introduction:
     - Enterprise Application Architecture: 
       - introduction/enterprise-application-architecture/introduction.md
