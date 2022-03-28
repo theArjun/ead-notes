@@ -5,13 +5,13 @@ description: Progress of the note completion
 
 - [ ] Introduction
     - [ ] Enterprise Application Architecture
-      - [x] Platform for Enterprise Solutions
-      - [ ] Enterprise Architecture Framework
+        - [x] Platform for Enterprise Solutions
+        - [ ] Enterprise Architecture Framework
     - [x] Web Technology Concepts
-      - [x] Protocols
-      - [x] Communication Types
-      - [x] Web Services
-      - [x] Data Exchange Formats
+        - [x] Protocols
+        - [x] Communication Types
+        - [x] Web Services
+        - [x] Data Exchange Formats
 ---
 
   - [ ] Development Process Management
