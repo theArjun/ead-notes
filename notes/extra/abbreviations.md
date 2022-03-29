@@ -29,3 +29,23 @@ description: List of abbreviations used in the code.
 | CSRF    |  Cross Site Request Forgery                      |
 | OAuth   |  Open Auth                                       |
 | SQL     |  Structured Query Language                       |
+| JPA     |  Java Persistence API                            |
+| DDD     |  Domain Driven Design                            |
+| TDD     |  Test Driven Development                         |
+| BDD     |  Behavior Driven Development                     |
+| DIP     |  Dependency Injection and Inversion of Control   |
+| DI      |  Dependency Injection                            |
+| IOC     |  Inversion of Control                            |
+| IAC     |  Inversion of Control and Configuration          |
+| FP      |  Factory Pattern                                 |
+| SP      |  Singleton Pattern                               |
+| LIP     |  Lazy Initialization Pattern                     |
+| DP      |  Design Patterns                                 |
+| JDBC    |  Java Database Connectivity                      |
+| ODBC    | Open Database Connectivity                       |
+| JDK     |  Java Development Kit                            |
+| JRE     |  Java Runtime Environment                        |
+| JVM     |  Java Virtual Machine                            |
+| J2EE    |  Java 2 Enterprise Edition                       |
+| J2SE    |  Java 2 Standard Edition                         |
+| J2ME    |  Java 2 Micro Edition                            |
