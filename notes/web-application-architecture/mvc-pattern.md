@@ -172,7 +172,7 @@ Let's create a database named `employee` in MySQL. Let's create an employee tabl
 ```
 
 ### Model Layer
-Let's create the `Employee` class which will act as our Model class.
+Let's create the `Employee` class which will act as our Model class. This can be view as `POJO` (Plain Old Java Objects) class.
 
 `# Employee.java`
 ```java
