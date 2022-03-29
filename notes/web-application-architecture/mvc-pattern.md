@@ -78,7 +78,7 @@ interface PersonDAO {
 public class Student {
     private int id;
     private String firstName;
-    private String name;
+    private String lastName;
 }
 ```
 
@@ -139,18 +139,14 @@ public class StudentServlet extends HttpServlet {
         if (request.getAttribute("studentRecord") != null) {
             Student student = (Student) request.getAttribute("studentRecord");
     %>
- 
     <h1>Student Record</h1>
     <div>ID: <%= student.getId()%></div>
     <div>First Name: <%= student.getFirstName()%></div>
     <div>Last Name: <%= student.getLastName()%></div>
-        
     <% 
         } else { 
     %>
-
     <h1>No student record found.</h1>
-         
     <% } %>	
     </body>
 </html>
@@ -198,7 +194,6 @@ Let's design an employee registration HTML form with the following fields:
 
     - firstName
     - lastName
-
 
 `# employeeRegister.jsp`
 ```html
