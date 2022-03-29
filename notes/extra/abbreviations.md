@@ -49,3 +49,9 @@ description: List of abbreviations used in the code.
 | J2EE    |  Java 2 Enterprise Edition                       |
 | J2SE    |  Java 2 Standard Edition                         |
 | J2ME    |  Java 2 Micro Edition                            |
+| POJO    |  Plain Old Java Object                           |
+| POCO    |  Plain Old CLR Object                            |
+| CLR     |  Common Language Runtime                         |
+| DDL     |  Data Definition Language                        |
+| DML     |  Data Manipulation Language                      |
+| DCL     |  Data Control Language                           |
