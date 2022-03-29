@@ -3,10 +3,10 @@ title: Progress
 description: Progress of the note completion
 ---
 
-- [ ] Introduction
-    - [ ] Enterprise Application Architecture
+- [x] Introduction
+    - [x] Enterprise Application Architecture
         - [x] Platform for Enterprise Solutions
-        - [ ] Enterprise Architecture Framework
+        - [x] Enterprise Architecture Framework
     - [x] Web Technology Concepts
         - [x] Protocols
         - [x] Communication Types
