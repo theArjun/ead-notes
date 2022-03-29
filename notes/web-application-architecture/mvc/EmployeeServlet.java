@@ -27,6 +27,6 @@ public class EmployeeServlet extends HttpServlet {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        response.sendRedirect("employeeDetails.jsp");
+        response.sendRedirect("employeeRegisterSuccess.jsp");
     }
 }
