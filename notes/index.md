@@ -31,9 +31,9 @@ description: Progress of the note completion
     - [x] Lazy Initialization
 ---
 
-  - [ ] Web App Architecture:
-    - [ ] Layered Architecture
-    - [ ] MVC Pattern
+  - [x] Web App Architecture:
+    - [x] Layered Architecture
+    - [x] MVC Pattern
 ---
 
   - [ ] SOA and RESTful:

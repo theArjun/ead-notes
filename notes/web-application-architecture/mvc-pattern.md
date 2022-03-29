@@ -174,7 +174,7 @@ Let's create a database named `employee` in MySQL. Let's create an employee tabl
 ### Model Layer
 Let's create the `Employee` class which will act as our Model class.
 
-`Employee.java`
+`# Employee.java`
 ```java
 {% include 'web-application-architecture/mvc/Employee.java' %}
 ```
@@ -182,7 +182,7 @@ Let's create the `Employee` class which will act as our Model class.
 ### DAO Layer
 Let's create `EmployeeDAO` class that contains JDBC code to connect with the MySQL database. 
 
-`EmployeeDAO.java`
+`# EmployeeDAO.java`
 ```java
 {% include 'web-application-architecture/mvc/EmployeeDAO.java' %}
 ```
@@ -190,7 +190,7 @@ Let's create `EmployeeDAO` class that contains JDBC code to connect with the MyS
 ### Controller Layer
 Let's create an `EmployeeServlet` class to process HTTP request parameters and redirect to the appropriate JSP page after request data stored in the database:
 
-`EmployeeServlet.java`
+`# EmployeeServlet.java`
 ```java
 {% include 'web-application-architecture/mvc/EmployeeServlet.java' %}
 ```
@@ -201,14 +201,14 @@ Let's design an employee registration HTML form with the following fields:
     - lastName
 
 
-`employeeRegister.jsp`
+`# employeeRegister.jsp`
 ```html
-{% include 'web-application-architecture/mvc/employeeregister.jsp' %}
+{% include 'web-application-architecture/mvc/employeeRegister.jsp' %}
 ```
 
 After an employee successfully registered then this page show a successful message on screen:
 
-`employeeRegisterSuccess.jsp`
+`# employeeRegisterSuccess.jsp`
 ```html
 {% include 'web-application-architecture/mvc/employeeRegisterSuccess.jsp' %}
 ```
