@@ -4,20 +4,43 @@ description: Explains about Web Protocols - HTTP, POP, SMTP etc.
 ---
 
 
-Protocols are set of rules that help in governing the way a particular technology will function for communication.
+- Protocols are set of rules that help in governing the way a particular technology will function for communication.
+- It defines standard for enabling the connection communication and data transfer between two computers on a network.
+- It is a set of rules for message exchange among computers.
 
-It can be said that the protocols are digital languages implemented in the form of networking algorithms. There are different networks and network protocols, user's use while surfing. 
-
+## Requirements
+1. Data formats for Data Exchange: 
+    - `Header | Data`
+2. Address Format for Data Exchange
+    - Sender and Receiver
+    - Address are stored in Header Section
+3. Address Mapping
+4. Routing
+5. Detection of Transmission Errors
+6. Acknowledgement
+7. Loss of Information (Handling)
+8. Sequence Control
+9. Flow Control
 
 ## Types of Protocols
-1. Transmission Control Protocol (TCP)
-2. Internet Protocol (IP)
-3. User Datagram Protocol (UDP)
-4. Post office Protocol (POP)
-5. Simple mail transport Protocol (SMTP)
-6. File Transfer Protocol (FTP)
-7. Hyper Text Transfer Protocol (HTTP)
-8. Hyper Text Transfer Protocol Secure (HTTPS)
+
+### Basis of State
+1. Stateless Protocol - `HTTP`, `UDP`
+2. Stateful Protocol - `TCP`, `FTP`
+
+### Basis of Layer
+1. Transport Layer - `TCP`, `UDP`
+2. Application Layer - `HTTP`, `FTP`
+
+## Some Protocols
+1. Transmission Control Protocol (`TCP`)
+2. Internet Protocol (`IP`)
+3. User Datagram Protocol (`UDP`)
+4. Post office Protocol (`POP`)
+5. Simple mail transport Protocol (`SMTP`)
+6. File Transfer Protocol (`FTP`)
+7. Hyper Text Transfer Protocol (`HTTP`)
+8. Hyper Text Transfer Protocol Secure (`HTTPS`)
 9. Telnet
 
 ### Transmission Control Protocol (TCP)
