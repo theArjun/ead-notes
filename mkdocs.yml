@@ -113,6 +113,7 @@ nav:
     - Lazy Initialization: design-patterns/lazy-initialization.md
 
   - Web App Architecture:
+    - Introduction: web-application-architecture/introduction.md
     - Layered Architecture: web-application-architecture/layered-architecture-for-web-applications.md
     - MVC Pattern: web-application-architecture/mvc-pattern.md
 

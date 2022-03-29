@@ -58,3 +58,6 @@ description: Progress of the note completion
         - [x] Methodologies
     - [x] Test Driven Development (TDD)
     - [x] Behaviour Driven Development (BDD)
+
+
+The important topics are labeled as 🔥.
