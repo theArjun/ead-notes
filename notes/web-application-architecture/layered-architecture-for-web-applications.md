@@ -3,6 +3,8 @@ title: Layered Architecture for Web Applications
 description: Explains about Web Layered Architecture
 ---
 
+![Application Architecture](../assets/images/app-architecture.png)
+
 ## 3 Tier Architecture
 - In 3 tier architecture, there are 3 components: Client PC, An Application server and A Database Server.
 - The work of server is distributed among application server and database server.
@@ -38,7 +40,14 @@ The layers of web application are :
 - The presentation layer provides necessary data to the client’s side. 
 - It receives input data, processes users’ requests, sends them to data services and puts results to the browser.
 - **With Java EE, It is handled with JSP, JS, HTML and CSS.**
+  
+#### Components:
+1. User interface (UI) components
+    - These components provide the mechanism for users to interact with the application. They format data and render it for display, and acquire and validate data entered by users.
 
+2. UI process components
+    - To help synchronize and coordinate user interactions, it can be useful to drive the process using separate UI process components.
+    - This prevents the process flow and state management logic from being hard-coded into the UI elements themselves, and allows you to reuse the same basic user interaction patterns in other user interfaces.
 ### Data Source Layer
 - The data source layer is the layer that handles the data services.
 - This is where the data arrives at your organization.
