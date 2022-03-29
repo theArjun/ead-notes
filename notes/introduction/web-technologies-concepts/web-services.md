@@ -74,6 +74,16 @@ XML and HTTP is the most fundamental web services platform. The following compon
 
 ![WSDL](../../assets/images/wsdl.gif)
 
+### STUB (Client Side Proxy)
+- It receives method called from client.
+- It would stored the method details from SOAP request and receive returned values from the SOAP response and hand over to client application.
+
+### Skeleton ( Server Side Proxy ) 
+- It gets method details like parameter, parameter types, return types from SOAP request.
+- It will invoke that client requested method on Service class and get return values.
+- It will store return values in SOAP response.
+
+![Web Services Interaction](../../assets/images/with-stub-skeleton.png)
 
 ### ebXML
 - Electronic Business XML
@@ -82,3 +92,17 @@ XML and HTTP is the most fundamental web services platform. The following compon
 - Relies on existing standardsL HTTP, TCP/IP, MIME, SMTP etc.
 - Can be implemented and deployed on virtually any computing platform.
 - Provides **concrete specifications** to enable dynamic B2B collaborations.
+
+
+## Architecture of Web Services
+![Web Services Architecture](../../assets/images/web-services-architecture.png)
+
+1. Service Provider
+    - From an architectural perspective, it is the platform that hosts the services.
+
+2. Service Requestor
+    - Service requestor is the application that is looking for and invoking or initiating an interaction with a service. The browser plays the requester role, driven by a consumer or a program without a user interface.
+
+3. Service Registry
+    - Service requestors find service and obtain binding information for services during development.
+
