@@ -23,6 +23,46 @@ description: Explains about MVC Pattern
 - The framework navigation can be complex because it introduces new layers of abstraction and requires users to adapt to the decomposition criteria of MVC.
 - Knowledge on multiple technologies becomes the norm. Developers using MVC need to be skilled in multiple technologies.
 
+## DAO and DTO objects
+
+### DTO
+- Data Transfer Objects. 
+- It is used to transfer the data between classes and modules of your application.
+These are generally used to transfer data from controller to client (JS). Term is also used for POCOs/POJOs by few which actually holds the data retrieved from Database.
+- DTO should only contain private fields for your data, getters, setters, and constructors.
+- DTO is not recommended to add business logic methods to such classes, but it is OK to add some util methods.
+
+### DAO
+- Data Access Objects.
+- It should encapsulate the logic for retrieving, saving and updating data in your data storage (a database, a file-system, whatever). 
+- Data Access Object is one of the design patterns used to implement DAL. This builds and executes queries on database and maps the result to POCO/POJO using various other patterns including 'Query Object', 'Data Mapper' etc. DAO layer could be further extended using 'Repository' pattern.
+
+### DAL
+- Data Access Layer 
+- It abstracts your database activities using DAO/Repository/POCO etc. ORMs help you to build your DAL but it could be implemented without using them also.
+
+```java
+interface PersonDTO {
+    String getName();
+    void setName(String name);
+    //.....
+}
+
+interface PersonDAO {
+    PersonDTO findById(long id);
+    void save(PersonDTO person);
+    //.....
+}
+```
+
+### POJO
+- Plain Old Java Objects.
+- A hand-wavy way of describing "normal" non-enterprise Java Objects.
+- It's just a fancy name for a very basic class structure.
+- POJO is not recommended to add business logic methods to such classes, but it is OK to add some util methods.
+
+![POJO](../assets/images/pojo.jpg)
+
 
 ## Example 🔥
 - To implement web application based on MVC design pattern.
@@ -115,47 +155,6 @@ public class StudentServlet extends HttpServlet {
     </body>
 </html>
 ```
-
-## DAO and DTO objects
-
-### DTO
-- Data Transfer Objects. 
-- It is used to transfer the data between classes and modules of your application.
-These are generally used to transfer data from controller to client (JS). Term is also used for POCOs/POJOs by few which actually holds the data retrieved from Database.
-- DTO should only contain private fields for your data, getters, setters, and constructors.
-- DTO is not recommended to add business logic methods to such classes, but it is OK to add some util methods.
-
-### DAO
-- Data Access Objects.
-- It should encapsulate the logic for retrieving, saving and updating data in your data storage (a database, a file-system, whatever). 
-- Data Access Object is one of the design patterns used to implement DAL. This builds and executes queries on database and maps the result to POCO/POJO using various other patterns including 'Query Object', 'Data Mapper' etc. DAO layer could be further extended using 'Repository' pattern.
-
-### DAL
-- Data Access Layer 
-- It abstracts your database activities using DAO/Repository/POCO etc. ORMs help you to build your DAL but it could be implemented without using them also.
-
-```java
-interface PersonDTO {
-    String getName();
-    void setName(String name);
-    //.....
-}
-
-interface PersonDAO {
-    PersonDTO findById(long id);
-    void save(PersonDTO person);
-    //.....
-}
-```
-
-### POJO
-- Plain Old Java Objects.
-- A hand-wavy way of describing "normal" non-enterprise Java Objects.
-- It's just a fancy name for a very basic class structure.
-- POJO is not recommended to add business logic methods to such classes, but it is OK to add some util methods.
-
-![POJO](../assets/images/pojo.jpg)
-
 
 ## Question
 
