@@ -96,7 +96,7 @@ Proces of evaluating a software system by manual or automated means to verify th
 - Higher quality products lead to more satisfied customers.
 - More satisfied customers will increase company profits.
 
-### Test Cases
+### Example
 
 #### Book Issue
 | SN | Test Cases | Expected Result | Test Result |
