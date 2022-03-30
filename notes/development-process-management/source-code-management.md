@@ -65,4 +65,4 @@ VCS helps with almost all aspects of a project, including:
 | A failure in the central server terminates all the versions. Eg: If the central server is down, all the developers will be unable to access the repository. | A failure in the main server does not affect the development. Eg: If the central server is down, all the developers will be able to access the repository.|
 | Eg: Mercurial | Eg: Git |
 
-> Key Index: Definition, Local Repostiory, Speed, Interet Connection, Main Focus, Failure, Example, Figure etc.
+> Key Index: Definition, Local Repostiory, Speed, Internet Connection, Main Focus, Failure, Example, Figure etc.
