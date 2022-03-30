@@ -62,6 +62,21 @@ Proces of evaluating a software system by manual or automated means to verify th
     - Eg: Testing in a browser, testing in a server, testing in a mobile app.
     - Eg: Testing for a banking sofware is different from testing for a web application.
 
+## Verification and Validation
+
+| Verification                                                                           | Validation                                                                                      |
+| -------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| It includes checking documents, design, codes and programs.                            | It includes testing and validating the actual product.                                          |
+| Verification is the static testing.                                                    | Validation is the dynamic testing.                                                              |
+| It does not include the execution of the code.                                         | It includes the execution of the code.                                                          |
+| Methods used in verification are reviews, walkthroughs, inspections and desk-checking. | Methods used in validation are Black Box Testing, White Box Testing and non-functional testing. |
+| It checks whether the software conforms to specifications or not.                      | It checks whether the software meets the requirements and expectations of a customer or not.    |
+| It can find the bugs in the early stage of the development.                            | It can only find the bugs that could not be found by the verification process.                  |
+| The goal of verification is application and software architecture and specification.   | The goal of validation is an actual product.                                                    |
+| Quality assurance team does verification.                                              | Validation is executed on software code with the help of testing team.                          |
+| It comes before validation.                                                            | It comes after verification.                                                                    |
+| It consists of checking of documents/files and is performed by human.                  | It consists of execution of program and is performed by computer.                               |
+|                                                                                        |                                                                                                 |
 
 ## Test Cases
 
