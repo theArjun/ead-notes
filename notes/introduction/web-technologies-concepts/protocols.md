@@ -64,6 +64,10 @@ FTP allows users to transfer files from one machine to another. Types of files m
 ### Hyper Text Transfer Protocol (HTTP)
 HTTP is designed for transferring a hypertext among two or more systems. HTML tags are used for creating links. These links may be in any form like text or images. HTTP is designed on Client-server principles which allow a client system for establishing a connection with the server machine for making a request. The server acknowledges the request initiated by the client and responds accordingly.
 
+> How HTTP track the progress of the user from page to page?
+
+{% include 'extra/questions/http-state.md' %}
+
 ### Hyper Text Transfer Protocol Secure (HTTPS)
 HTTPS is abbreviated as Hyper Text Transfer Protocol Secure is a standard protocol to secure the communication among two computers one using the browser and other fetching data from web server. HTTP is used for transferring data between the client browser (request) and the web server (response) in the hypertext format, same in case of HTTPS except that the transferring of data is done in an encrypted format. So it can be said that https thwart hackers from interpretation or modification of data throughout the transfer of packets.
 
