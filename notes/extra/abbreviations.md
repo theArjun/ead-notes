@@ -33,10 +33,8 @@ description: List of abbreviations used in the code.
 | DDD     |  Domain Driven Design                            |
 | TDD     |  Test Driven Development                         |
 | BDD     |  Behavior Driven Development                     |
-| DIP     |  Dependency Injection and Inversion of Control   |
 | DI      |  Dependency Injection                            |
 | IOC     |  Inversion of Control                            |
-| IAC     |  Inversion of Control and Configuration          |
 | FP      |  Factory Pattern                                 |
 | SP      |  Singleton Pattern                               |
 | LIP     |  Lazy Initialization Pattern                     |
@@ -55,3 +53,6 @@ description: List of abbreviations used in the code.
 | DDL     |  Data Definition Language                        |
 | DML     |  Data Manipulation Language                      |
 | DCL     |  Data Control Language                           |
+| VCS     |  Version Control System                          |
+| SVN     |  Subversion                                      |
+| SCM     |  Source Code Management                          |

@@ -15,7 +15,7 @@ description: Progress of the note completion
 ---
 
   - [ ] Development Process Management
-    - [ ] Source Code Management
+    - [x] Source Code Management
     - [ ] Continuous Integration
     - [ ] Software Testing
     - [ ] Software Documentation
