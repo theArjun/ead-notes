@@ -79,6 +79,22 @@ public class Student {
     private int id;
     private String firstName;
     private String lastName;
+
+    public void getId() {
+        return id;
+    }
+
+    public void getFirstName() {
+        return firstName;
+    }
+
+    public void getLastName() {
+        return lastName;
+    }
+
+    public String getJson() {
+        return "{\"id\":\"" + id + "\",\"firstName\":\"" + firstName + "\",\"lastName\":\"" + lastName + "\"}";
+    }
 }
 ```
 
@@ -107,7 +123,6 @@ public class StudentService {
 @WebServlet(name="StudentServlet", urlPatterns={"/student"})
 public class StudentServlet extends HttpServlet {
     private StudentService studentService = new StudentService();
-    private Gson gson = new Gson();
     
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -115,7 +130,7 @@ public class StudentServlet extends HttpServlet {
         Optional<Student> student = studentService.getStudent(id);
         if (student.isPresent()) {
             response.setContentType("application/json");
-            response.getWriter().write(gson.toJson(student.get()));
+            response.getWriter().write(student.getJson());
         } else {
             response.setStatus(HttpServletResponse.SC_NOT_FOUND);
         }

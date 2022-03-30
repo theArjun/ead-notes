@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/register")
+@WebServlet(name="EmployeeServlet", urlpatterns={"/register"})
 public class EmployeeServlet extends HttpServlet {
     private EmployeeDAO employeeDao;
 
@@ -17,11 +17,8 @@ public class EmployeeServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
     throws ServletException, IOException {
 
-        String firstName = request.getParameter("firstName");
-        String lastName = request.getParameter("lastName");
-
-        Employee employee = new Employee(firstName, lastName);
-
+        String name = request.getParameter("name");
+        Employee employee = new Employee(name);
         try {
             employeeDao.registerEmployee(employee);
         } catch (Exception e) {

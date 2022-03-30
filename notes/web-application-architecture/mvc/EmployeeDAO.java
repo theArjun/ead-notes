@@ -5,29 +5,24 @@ import java.sql.SQLException;
 
 public class EmployeeDAO {
 
-    public int registerEmployee(Employee employee) throws ClassNotFoundException {
-        String INSERT_USERS_SQL = "INSERT INTO employee" +
-            "  (id, first_name, last_name) VALUES " +
-            " (?, ?, ?);";
+    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/employee";
+    private static final String JDBC_USER = "root";
+    private static final String JDBC_PASSWORD = "root";
+    private static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+    
 
-        int result = 0;
+    public int registerEmployee(Employee employee) throws ClassNotFoundException, SQLException {
 
-        Class.forName("com.mysql.jdbc.Driver");
+        String INSERT_USERS_SQL = "INSERT INTO employee (name) VALUES (?);";
+        Class.forName(JDBC_DRIVER);
 
-        try {
-            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/employee", "root", "root");
-            PreparedStatement preparedStatement = connection.prepareStatement(INSERT_USERS_SQL)
-            preparedStatement.setInt(1, 1);
-            preparedStatement.setString(2, employee.getFirstName());
-            preparedStatement.setString(3, employee.getLastName());
+        Connection connection = DriverManager.getConnection(JDBC_URL, JDBC_USER, JDBC_PASSWORD);
+        PreparedStatement preparedStatement = connection.prepareStatement(INSERT_USERS_SQL)
+        preparedStatement.setString(1, employee.getName()); // ID is auto-incremented, so no need to set it.
 
-            System.out.println(preparedStatement);
-            // Step 3: Execute the query or update query
-            result = preparedStatement.executeUpdate();
+        System.out.println(preparedStatement);
+        int result = preparedStatement.executeUpdate();
 
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
         return result;
     }
 }
