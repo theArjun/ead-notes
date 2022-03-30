@@ -1,6 +1,6 @@
 ---
-title: Progress
-description: Progress of the note completion
+title: Syllabus
+description: Syllabus for the Enterprise Application Development
 ---
 
 - [x] Introduction
@@ -33,6 +33,9 @@ description: Progress of the note completion
 
   - [x] Web App Architecture
     - [x] Layered Architecture
+        - [x] Presentation Layer
+        - [x] Data Source Layer
+        - [x] Domain Logic & Business Layer
     - [x] MVC Pattern
 ---
 
