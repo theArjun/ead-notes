@@ -61,12 +61,12 @@ description: Explains about Resource-Oriented Architecture
 ### Uniform Interface
 - Means all services should be accessed by the client in the same way.
 
-### Benefits of ROA
+## Benefits of ROA
 1. Achieve performance and scalability because of statelessness.
 2. Client and server will have explicit state.
 3. No need to establish connection between client and server.
 
-### SOAP vs REST
+## SOAP vs REST
 | Factor | SOAP | REST |
 | --- | ---- | ---- |
 | Definition | It is a complete protocol. | It is an architectural style as it needs HTTP protocol for the communication. So, it's not a protocol. |

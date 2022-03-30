@@ -36,11 +36,11 @@ description: Progress of the note completion
     - [x] MVC Pattern
 ---
 
-  - [ ] SOA and RESTful Web Services
+  - [x] SOA and RESTful Web Services
     - [x] Resource Oriented Architecture
-    - [ ] Analysis and Design:
-        - [ ] Read Only Resource Oriented Services
-        - [ ] Read Write Resource Oriented Services
+    - [x] Analysis and Design:
+        - [x] Read Only Resource Oriented Services
+        - [x] Read Write Resource Oriented Services
 ---
 
   - [x] Security:
