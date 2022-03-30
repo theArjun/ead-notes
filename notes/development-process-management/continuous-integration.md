@@ -13,6 +13,7 @@ description: Explains about Continuous Integration
   This makes it exponentially mroe difficult to find and fix problems, such integration problems can easily knock a project of schedule or cause it to fail altogether.
 
 ![CI Workflow](../assets/images/ci-workflow.jpg)
+![CI Workflow](../assets/images/ci-flow.png)
 
 ## Advantages of CI
 1. Increase visibility, enabling better communication.
@@ -26,8 +27,13 @@ description: Explains about Continuous Integration
     - A check-in process
     - An automated build process
     - A willingness to work incrementally.
+4. It supplements the checks like:
+    - Automated code quality tests.
+    - Check test cases.
+    - Syntax style review tools
+    - Lints and formats Codebase
 
-## Example : Travis
+## Example : [Travis](https://travis-ci.org/)
 - Travis CI is a CI platform that automates the process of software testing and deployment of applications. It’s built as a platform that integrates with your GitHub projects so that you can start testing your code on the fly. 
 - With customers like Facebook, Mozilla, Twitter, Heroku, and others, it’s one of the leading continuous integration tools on the market.
 
@@ -41,3 +47,4 @@ description: Explains about Continuous Integration
 - Extended API and CMD tools for custom management
 
 > Cost: Free for open repositories, Enterprise for private
+
