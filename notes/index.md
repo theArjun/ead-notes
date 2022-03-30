@@ -36,8 +36,8 @@ description: Progress of the note completion
     - [x] MVC Pattern
 ---
 
-  - [ ] SOA and RESTful:
-    - [ ] Resource Oriented Architecture
+  - [ ] SOA and RESTful Web Services
+    - [x] Resource Oriented Architecture
     - [ ] Analysis and Design:
         - [ ] Read Only Resource Oriented Services
         - [ ] Read Write Resource Oriented Services
@@ -53,7 +53,7 @@ description: Progress of the note completion
 ---
 
   - [x] Development Methodologies:
-    - [x] AGILE: 
+    - [x] AGILE
         - [x] Principles
         - [x] Methodologies
     - [x] Test Driven Development (TDD)

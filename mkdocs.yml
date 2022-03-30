@@ -118,6 +118,7 @@ nav:
     - MVC Pattern: web-application-architecture/mvc-pattern.md
 
   - SOA and RESTful:
+    - Introduction: soa-and-restful/introduction.md
     - Resource Oriented Architecture: soa-and-restful/resource-oriented-architecture.md
     - Analysis and Design:
       - Read Only Resource Oriented Services: soa-and-restful/roa-analysis-and-design/read-only.md
