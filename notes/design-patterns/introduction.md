@@ -5,7 +5,7 @@ description: Introduces about Design Patterns, importance of Design Patterns, an
 A pattern (or design pattern) is a written document that describes a general solution 
 to a design problem that occurs repeatedly in many projects. 
 
-## Information about
+## Generic Structure
 
 - Name that describes the pattern
 - Problem to be solved by the pattern
