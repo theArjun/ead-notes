@@ -3,10 +3,10 @@ import java.sql.*;
 
 class JDBCSingletonEarly {
 
-    private static final string JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    private static final string DB_URL = "jdbc:mysql://localhost/test";
-    private static final string USER = "root";
-    private static final string PASS = "";
+    private static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+    private static final String DB_URL = "jdbc:mysql://localhost/test";
+    private static final String USER = "root";
+    private static final String PASS = "";
 
     private static JDBCSingletonEarly jdbc = new JDBCSingletonEarly();
     private static Connection con;
