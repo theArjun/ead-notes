@@ -29,8 +29,19 @@ Development team then develops and refactors the code to pass the test.
 ![TDD Diagram](../assets/images/tdd.png)
 
 ## Benefits of TDD
-1. Much less debug time.
-2. Code proven to meet requirements.
-3. Test becomes safety net.
-4. Near 0 (zero) Defects.
-5. Shorter development cycle.
+1. The software design becomes modular.
+2. The code is easier to maintain.
+3. Code refactoring goes more smoothly.
+4. Project costs decrease, ROI increases.
+5. TDD documents the code better.
+6. Developers have less debugging to do.
+7. Shorter development cycle.
+8. Near 0 (zero) Defects.
+9. Test becomes safety net.
+10. Code proven to meet requirements.
+
+## Cons of TDD
+1. Slows down the development process.
+2. TDD Approach is difficult to learn relatively.
+3. It is an "All or None" approach.
+4. It is challenging to support and maintain.
