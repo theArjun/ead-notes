@@ -2,12 +2,12 @@ site_name: EAD Notes
 docs_dir: notes/
 theme:
   name: material
-  favicon: 'assets/images/java.png'
-  logo: 'assets/images/java.png'
+  favicon: 'assets/images/logo.png'
+  logo: 'assets/images/logo.png'
   palette:
     scheme: default
-    primary: teal
-    accent: teal
+    primary: white
+    accent: white
   font:
     text: Roboto
     code: Roboto Mono
@@ -55,10 +55,6 @@ extra:
       link: https://linkedin.com/in/thearjun
     - icon: fontawesome/brands/github
       link: https://github.com/thearjun
-    - icon: fontawesome/solid/envelope
-      link: mailto:mailarjunadhikari@gmail.com
-    - icon: fontawesome/solid/user
-      link: https://www.upwork.com/freelancers/~017a123f27939046d8
 
 extra_javascript:
   - assets/javascripts/extra.js
