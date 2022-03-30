@@ -14,12 +14,20 @@ It is synonymously also known as Version Control System (`VCS`).
 VCS is the combination of technologies and practices for tracking and controlling process to a project files in particular to source code, documentation, and other related artifacts.
 
 VCS helps with almost all aspects of a project, including:  
-
 - Version control
 - Tracking changes to the source code
 - Inter Developer Communication
 - Release Management
 - Bug Management
+
+## Benefits
+1. Complete version history
+2. More effective collaboration
+3. Workflow automation
+4. Better communnication
+5. Graphic displays of code history
+6. Generate release notes
+7. Code Backup
 
 ## Types of VCS
 1. Centralized Version Control System
