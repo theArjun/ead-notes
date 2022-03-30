@@ -14,11 +14,9 @@ public class EmployeeDAO {
 
         Class.forName("com.mysql.jdbc.Driver");
 
-        try (Connection connection = DriverManager
-            .getConnection("jdbc:mysql://localhost:3306/employee", "root", "root");
-
-            // Step 2:Create a statement using connection object
-            PreparedStatement preparedStatement = connection.prepareStatement(INSERT_USERS_SQL)) {
+        try {
+            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/employee", "root", "root");
+            PreparedStatement preparedStatement = connection.prepareStatement(INSERT_USERS_SQL)
             preparedStatement.setInt(1, 1);
             preparedStatement.setString(2, employee.getFirstName());
             preparedStatement.setString(3, employee.getLastName());

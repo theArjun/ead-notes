@@ -55,20 +55,39 @@ A successful SQL injection expert can easily exploit this vulnerability to gain 
 ![Steps](../assets/images/jdbc.png)
 
 1. Load and Register driver class.  
-```Class.forName("Oracle.jdbc.OracleDriver");```
-
+    ```java 
+    Class.forName("Oracle.jdbc.OracleDriver");
+    ```
 2. Establish Conection  
-```Connection con = Driver.Manager.getConnection( url , DbUsername , DbPassword )  ;```
+    ```java
+    Connection con = Driver.Manager.getConnection( url , DbUsername , DbPassword );
+    ```
 3.  Creation of statement Object   
-    ``` Statement st = con.createStatement(); ```
+    ```java
+    String INSERT_USERS_SQL = "INSERT INTO employee" +
+            "  (id, first_name, last_name) VALUES " +
+            " (?, ?, ?);"
+    PreparedStatement preparedStatement = connection.prepareStatement(INSERT_USERS_SQL)
+    preparedStatement.setInt(1, 1);
+    preparedStatement.setString(2, "Arjun");
+    preparedStatement.setString(3, "Adhikari");
+    ```
 4. Send and Execute SQL Query  
-    ``` Result rs = st.executeQuery("Select * from employees");```
-5. Process Result from ResultSet  
-       
-        while(rs.next())
-        {
-            System.out.Println(rs.getInt(1));
-        }
+    ```java
+    Result rs = preparedStatement.executeUpdate();
+    ```
+5. Process Result from ResultSet.  
+    If rs is result from Select Query, then we can use while loop to iterate through the result set.
+    ```java 
+    while(rs.next())
+    {
+        System.out.Println(rs.getInt(1));
+    }
+    ```
+    If rs is int (Non-Select Query).
+    ```java
+    System.out.Println(rs + " rows affected"); 
+    ```
 
 6. Close connection
     ```con.close();```
