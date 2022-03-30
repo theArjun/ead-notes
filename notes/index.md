@@ -14,11 +14,11 @@ description: Progress of the note completion
         - [x] Data Exchange Formats
 ---
 
-  - [ ] Development Process Management
+  - [x] Development Process Management
     - [x] Source Code Management
     - [x] Continuous Integration
     - [x] Software Testing
-    - [ ] Software Documentation
+    - [x] Software Documentation
 ---
 
   - [x] Design Patterns
@@ -31,7 +31,7 @@ description: Progress of the note completion
     - [x] Lazy Initialization
 ---
 
-  - [x] Web App Architecture:
+  - [x] Web App Architecture
     - [x] Layered Architecture
     - [x] MVC Pattern
 ---
