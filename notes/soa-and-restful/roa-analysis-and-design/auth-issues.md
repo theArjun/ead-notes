@@ -1,4 +1,4 @@
-### New Issues: Authentication and Authorization
+### Issues: Authentication and Authorization
 - Now that we are allowing a client to change stuff on our server, we need
     - Authentication: problem of tying a request to a user
     - Authorization: problem of determining which requests to let through for a given user
