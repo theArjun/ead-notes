@@ -118,3 +118,9 @@ However, the main purpose lies in delivering stable, working software frequently
 * Building through features.
  
 FDD is a constructive, arranged, centred method for the entire software workflow management and a reliable choice for software-focused teams and associations.
+
+
+### Differences between Agile and Scrum
+- Agile is a philosophy, whereas Scrum is a type of Agile methodology
+- Scrum is broken down into shorter sprints and smaller deliverables, while in Agile everything is delivered at the end of the project
+- Agile involves members from various cross-functional teams, while a Scrum project team includes specific roles, such as the Scrum Master and Product Owner
