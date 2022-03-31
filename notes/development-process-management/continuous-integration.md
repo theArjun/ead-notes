@@ -15,6 +15,14 @@ description: Explains about Continuous Integration
 ![CI Workflow](../assets/images/ci-workflow.jpg)
 ![CI Workflow](../assets/images/ci-flow.png)
 
+
+Making continuous integration works, we need:
+
+- Source code repository
+- A check-in process
+- An automated build process
+- A willingness to work incrementally.
+
 ## Advantages of CI
 1. Increase visibility, enabling better communication.
 2. Catch issue early, spend less time debugging and more time in adding feature.
@@ -22,12 +30,7 @@ description: Explains about Continuous Integration
     - Stop waiting to find out if your code's going to work.
     - Reduce integration problems.
     - Reduce the risk of bugs.
-3. Making continuous integration works, we need:
-    - Source code repository
-    - A check-in process
-    - An automated build process
-    - A willingness to work incrementally.
-4. It supplements the checks like:
+3. It supplements the checks like:
     - Automated code quality tests.
     - Check test cases.
     - Syntax style review tools
