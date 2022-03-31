@@ -53,6 +53,9 @@ VCS helps with almost all aspects of a project, including:
 
 ![Distributed VCS](../assets/images/distributed-vcs.png)
 
+#### GIT Workflow
+![GIT Workflow](../assets/images/git-workflow.png)
+
 #### Benefits
 1. Each user has their own copy of the entire repository, not just the files but the history as well  as so it is fast.
 2. More powerful and detailed change tracking which means less conflict.
@@ -74,3 +77,4 @@ VCS helps with almost all aspects of a project, including:
 | **Failure** | A failure in the central server terminates all the versions. Eg: If the central server is down, all the developers will be unable to access the repository. | A failure in the main server does not affect the development. Eg: If the central server is down, all the developers will be able to access the repository.|
 | **Figure** | ![Centralized VCS](../assets/images/centralized-vcs.png) | ![Distributed VCS](../assets/images/distributed-vcs.png) |
 | **Example** | Eg: SVN (Subversion) | Eg: Git |
+
