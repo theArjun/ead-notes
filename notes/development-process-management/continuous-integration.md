@@ -37,6 +37,7 @@ Making continuous integration works, we need:
     - Lints and formats Codebase
 
 ## Martin Fowler CI
+![Martin Fowler CI](../assets/images/martin-fowler-ci.png)
 According to Martin Fowler, CI is composed of 10 key practices:
 
 1. Maintain a single source repository.
