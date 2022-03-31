@@ -25,9 +25,16 @@ description: Explains about Singleton Pattern
 ## Class Diagram
 ![Singleton Pattern](../assets/images/singleton.jpg)
 
+## Issues with Singleton Testing
+- Singleton is not testable because:
+    - As the singleton object acts as a global variable in the program, the change in state of the singleton object will affect the state of the whole program.
+    - While two or many objects in the program tries to mutate the state of the program, it may enter the race condition.
+    - The unit tests are independent of each other, but with the singleton object, the tests are not independent, because they depend on the singleton object.
+- Singleton is not thread-safe.
+- Singleton is not mockable.
+
 
 ## Implementation
-
 
 > Step 1
 
