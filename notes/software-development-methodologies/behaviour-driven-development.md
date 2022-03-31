@@ -34,3 +34,40 @@ Refunded item should be returned to stock.
 > Given that a customer previously brought a black sweaters from the store.    
 > And I have there 3 black sweaters in stock.  
 > When they return the black sweater for a refund, Then, there should have 4 black sweaters in stock.  
+
+
+## Example of BDD
+```feature
+Feature: Login
+As a user,
+I want to login 
+So that, I want to see my todos.
+
+Background: 
+    Given the user has browsed to login page
+
+
+Scenario: Login with correct credentials
+    When the user logs with username "thearjun" and password "nepal123"
+    Then the user should be redirected to index page
+
+Scenario: Login with incorrect credentials
+    When the user logs with username "thearjun" and password "india123"
+    Then the error message "Invalid Username or password" should be displayed
+
+Scenario Outline:
+    When the user logs with username "<username>" and password "<password>"
+    Then the error message "<message>" should be displayed
+    Examples:
+    | username  | password    | message                      |
+    | bishal    | animeislove | Invalid Username or password |
+    |           | nepal123    | Invalid password             |
+    | thearjun  |             | Invalid Username or password |
+    | @#$%^&    | nepal123    | Invalid Username or password |
+
+Scenario: 
+    Given the user logs in with following detatils
+    | username | password |
+    | thearjun | nepal123 |
+    Then the user should be redirected to index page
+```
