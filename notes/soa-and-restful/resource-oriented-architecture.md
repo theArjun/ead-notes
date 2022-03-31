@@ -78,7 +78,7 @@ description: Explains about Resource-Oriented Architecture
 | Communication | Distributed Communication | Client Server Communication | 
 | Data format | Only based on XML | Supports XML, JSON, Plaintext etc. |
 | Payload | It uses XML which is very complex and uses more resource | It uses HTTP and JSON so need of extra processing of Payload |
-| Security | Supports WS-Security which is transport level security. | Supports ksecure version of HTTP i.e. HTTPS |
+| Security | Supports WS-Security which is transport level security. | Supports secure version of HTTP i.e. HTTPS |
 | Bandwidth | Consume or takes more bandwidth due to envelop style and WSDL files. | Light weight in terms of design. So, consume less bandwidth. |
 | Caching | Envelop style requires multiple levels for caching. | Its possible to cache data easily. |
 | When to use ? | Application that requires high security. Eg: Financial App etc. | Application that requires high performance, faster response, lightweight payload etc. Eg: Social Media App |
@@ -132,5 +132,5 @@ description: Explains about Resource-Oriented Architecture
 - Increases latency - Disadvantage.
 
 ### Code on Demand (Optional)
-- The servers can provides execitable code to the client on demand.
+- The servers can provides executable code to the client on demand.
 - Reduces Abstraction.
