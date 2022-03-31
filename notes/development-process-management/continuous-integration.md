@@ -5,12 +5,12 @@ description: Explains about Continuous Integration
 ![Continuous Integration](../assets/images/ci.jpg)
 
 
-- CI is a development practise that requires developer to integrate code into a shared repository, multiple times.
+- CI is a development practice that requires developer to integrate code into a shared repository, multiple times.
 - Each code push is then verified by a automated build system, allowing team to detect problem early.  
   By integrating regularly, we can detect error quickly and locate them more easily.
-- Continous integration is cheap, not integrating continously is expensive.
-- If we don't follow a continuous approach, you will jave a llonger periodss between integration.  
-  This makes it exponentially mroe difficult to find and fix problems, such integration problems can easily knock a project of schedule or cause it to fail altogether.
+- Continuous integration is cheap, not integrating continuously is expensive.
+- If we don't follow a continuous approach, you will have a longer periods between integration.  
+  This makes it exponentially more difficult to find and fix problems, such integration problems can easily knock a project of schedule or cause it to fail altogether.
 
 ![CI Workflow](../assets/images/ci-workflow.jpg)
 ![CI Workflow](../assets/images/ci-flow.png)
@@ -22,7 +22,7 @@ description: Explains about Continuous Integration
     - Stop waiting to find out if your code's going to work.
     - Reduce integration problems.
     - Reduce the risk of bugs.
-3. Making continous integration works, we need:
+3. Making continuous integration works, we need:
     - Source code repository
     - A check-in process
     - An automated build process
