@@ -17,13 +17,14 @@
                 "@item": "H253",
                 "@quantity": "1",
                 "unit_price": 20.00
-            }],
-            "credit_card": {
-                "@number": "1234123412341234",
-                "@expiry": "12/12",
-                "@cvv": "123",
-                "@type": "Visa"
-            }
+            }]
+        },
+        "credit_card": {
+            "@number": "1234123412341234",
+            "@expiry": "12/12",
+            "@cvv": "123",
+            "@type": "Visa"
+
         }
     }
 }
