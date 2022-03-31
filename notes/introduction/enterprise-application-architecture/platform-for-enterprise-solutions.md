@@ -3,11 +3,19 @@ title: Platform for Enterprise Solutions
 description: Explains about platforms for enterprise solutions.
 ---
 
-## Entity Java Bean (EJB)
+## JavaBean
+A JavaBean is a Java class that should follow the following conventions:
 
-- It is used to develop scalable, robust, secured enterprise applications using Java.
-- It is a server side component that enccapsulates the business lofic of an application.
-- The business logic is the code that fulfills the purpose of the pplication.
+- It should have a no-arg constructor.
+- It should be Serializable.
+- It should provide methods to set and get the values of the properties, known as getter and setter methods.
+
+
+## Enterprise Java Bean (EJB)
+
+- It is used to develop **scalable, robust, secured** enterprise applications using Java.
+- It is a **server side component** that encapsulates the business logic of an application.
+- The business logic is the code that fulfills the purpose of the application.
 - For eg: In an inventory control application, the enterprise beans might implement the business logic in methods called checkInventoryLevel and orderProduct.
   By invoking these methods, clients can access the inventory services provided by the application.
 
