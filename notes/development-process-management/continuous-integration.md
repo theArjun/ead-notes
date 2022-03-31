@@ -36,6 +36,20 @@ Making continuous integration works, we need:
     - Syntax style review tools
     - Lints and formats Codebase
 
+## Martin Fowler CI
+According to Martin Fowler, CI is composed of 10 key practices:
+
+1. Maintain a single source repository.
+2. Automate the build.
+3. Make your build self testing.
+4. Everyone commits to the mainline every day.
+5. Every commit should build the main line on an integration machine.
+6. Keep the build fast.
+7. Test in a clone of the source in production environment.
+8. Make it easy for anyone to get the latest executable.
+9. Everyone can see what is happening.
+10. Automate deployment.
+
 ## Example : [Travis](https://travis-ci.org/)
 - Travis CI is a CI platform that automates the process of software testing and deployment of applications. It’s built as a platform that integrates with your GitHub projects so that you can start testing your code on the fly. 
 - With customers like Facebook, Mozilla, Twitter, Heroku, and others, it’s one of the leading continuous integration tools on the market.
