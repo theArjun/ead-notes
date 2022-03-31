@@ -45,3 +45,50 @@ Development team then develops and refactors the code to pass the test.
 2. TDD Approach is difficult to learn relatively.
 3. It is an "All or None" approach.
 4. It is challenging to support and maintain.
+
+
+## Example of TDD
+Suppose we are going to develop a calculator which perfroms addition.
+
+1. First we need to develop a test for addition.
+   
+    ```python
+    import unittest
+
+    class TestCalculator(unittest.TestCase):
+            def test_addition(self):
+                result = Calculator.add(2, 2)
+                self.assertEqual(result, 4)
+    ```
+2. Run the test and see the failed test.
+   
+    ```shell
+    python -m unittest test_calculator.py
+    ```
+
+3. The test case failed, now write the code that will make the test pass.
+   
+    ```python
+    class Calculator:
+        @staticmethod
+        def add(a, b):
+            return a + b
+    ```
+
+4. Run the test again and see if the test passes.
+    ```shell
+    python -m unittest test_calculator.py
+    ```
+5. The test passes, now refactor the code if needed.
+   
+    ```python
+    class Calculator:
+        @staticmethod
+        def add(a, b):
+            return a + b
+    ```
+6. Run the test again and see if the test passes.
+    ```shell
+    python -m unittest test_calculator.py
+    ```
+7. The test passes, now continue the process.
