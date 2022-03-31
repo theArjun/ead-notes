@@ -161,6 +161,8 @@ public class StudentServlet extends HttpServlet {
 </html>
 ```
 
+![MVC With Block Diagram](../assests/../assets/images/mvc-pojo.png)
+
 ## Question
 
 > Demonstrate MVC architecture with the help of Servlet, JSP, POJO classes and JDBC.
