@@ -5,9 +5,9 @@ description: Explains about Resource-Oriented Architecture
 
 ## REST
 - Represntational State Transfer ( set of constraints)
-- An architectural style protocol thhat uses XML or JSON to send and receive data.
+- An architectural style protocol that uses XML or JSON to send and receive data.
 - Simply calls resources via URL pattern.
-- Result is readble which is just plain XMl or JSON.
+- Result is readble which is just plain XML or JSON.
 - Transfer is over HTTP or HTTPS only.
 - Easy to call from any programming languages.
 - Performance is much better compared to SOAP.
@@ -19,11 +19,11 @@ description: Explains about Resource-Oriented Architecture
 | Select | GET |
 | Create | POST |
 | Update | PUT |
+| Partial Update | PATCH |
 | Delete | DELETE |
 | Search | GET |
 | List | GET |
 | Count | GET |
-|  |  |
 
 - Implementations: Spring Restful, Django Rest Framework etc.
 
