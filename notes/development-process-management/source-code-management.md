@@ -64,14 +64,13 @@ VCS helps with almost all aspects of a project, including:
 
 ### Difference between Centralized and Distributed VCS
 
-| Centralized VCS | Distributed VCS |
-|----------------|-----------------|
-| It is the form of version control in which the central repository of the server provides the latest code to the client machines. | It is the form of version control where the complete codebase (including its full history) is mirrored on every developer's computer. |
-| There are no local repositories. | There are local repositories. |
-| Works comparatively slower. | Works faster. |
-| Always require internet connectivity. | Developers can work with a local repository without an internet connection. |
-| Focuses on synchronizing, tracking and backing up files. | Focuses on sharing changes. |
-| A failure in the central server terminates all the versions. Eg: If the central server is down, all the developers will be unable to access the repository. | A failure in the main server does not affect the development. Eg: If the central server is down, all the developers will be able to access the repository.|
-| Eg: Mercurial | Eg: Git |
-
-> Key Index: Definition, Local Repository, Speed, Internet Connection, Main Focus, Failure, Example, Figure etc.
+| Factor | Centralized VCS | Distributed VCS |
+| |----------------|-----------------|
+| **Definition** | It is the form of version control in which the central repository of the server provides the latest code to the client machines. | It is the form of version control where the complete codebase (including its full history) is mirrored on every developer's computer. |
+| **Local Repository** | There are no local repositories. | There are local repositories. |
+| **Speed** | Works comparatively slower. | Works faster. |
+| **Internet Connection** | Always require internet connectivity. | Developers can work with a local repository without an internet connection. |
+| **Main Focus** | Focuses on synchronizing, tracking and backing up files. | Focuses on sharing changes. |
+| **Failure** | A failure in the central server terminates all the versions. Eg: If the central server is down, all the developers will be unable to access the repository. | A failure in the main server does not affect the development. Eg: If the central server is down, all the developers will be able to access the repository.|
+| **Figure** | ![Centralized VCS](../assets/images/centralized-vcs.png) | ![Distributed VCS](../assets/images/distributed-vcs.png) |
+| **Example** | Eg: SVN (Subversion) | Eg: Git |
