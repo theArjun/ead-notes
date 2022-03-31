@@ -14,11 +14,11 @@ The follwing steps are to be done to design a read/write resource-oriented servi
     - Indicate what operations apply to which types
         - provide example URIs and discussion of what will happen
             - especially in the case of POST and PUT
-                - PUT: create or modify resource
-                - POST: append content to existing resource OR append child resource to parent resource (blog entries)
+                - POST: create resource
+                - PUT: update resources
         - Two questions to help
             - Will clients be creating new resources of this type?
-            - Who’s in charge of determining the new resource’s URI? Client or Server? If the former, then PUT. If the latter, then POST
+            - Who’s in charge of determining the new resource’s URI? Client or Server?
 
 
 {% include 'soa-and-restful/roa-analysis-and-design/auth-issues.md' %}
