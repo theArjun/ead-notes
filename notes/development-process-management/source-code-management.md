@@ -5,7 +5,7 @@ description: Explaining about Source Code Management - Git, SVN, Mercurial, Subv
 
 A source code management (`SCM`) isa tool for managing a collection of a program code that provides you with 3 important capabilities.
 
-- Reversivibility
+- Reversibility
 - Concurrency
 - Annotations
 
@@ -14,6 +14,7 @@ It is synonymously also known as Version Control System (`VCS`).
 VCS is the combination of technologies and practices for tracking and controlling process to a project files in particular to source code, documentation, and other related artifacts.
 
 VCS helps with almost all aspects of a project, including:  
+
 - Version control
 - Tracking changes to the source code
 - Inter Developer Communication
@@ -24,7 +25,7 @@ VCS helps with almost all aspects of a project, including:
 1. Complete version history
 2. More effective collaboration
 3. Workflow automation
-4. Better communnication
+4. Better communication
 5. Graphic displays of code history
 6. Generate release notes
 7. Code Backup
@@ -69,8 +70,8 @@ VCS helps with almost all aspects of a project, including:
 | There are no local repositories. | There are local repositories. |
 | Works comparatively slower. | Works faster. |
 | Always require internet connectivity. | Developers can work with a local repository without an internet connection. |
-| Focuses on sunchronizing, tracking and backing up files. | Focuses on sharing changes. |
+| Focuses on synchronizing, tracking and backing up files. | Focuses on sharing changes. |
 | A failure in the central server terminates all the versions. Eg: If the central server is down, all the developers will be unable to access the repository. | A failure in the main server does not affect the development. Eg: If the central server is down, all the developers will be able to access the repository.|
 | Eg: Mercurial | Eg: Git |
 
-> Key Index: Definition, Local Repostiory, Speed, Internet Connection, Main Focus, Failure, Example, Figure etc.
+> Key Index: Definition, Local Repository, Speed, Internet Connection, Main Focus, Failure, Example, Figure etc.
