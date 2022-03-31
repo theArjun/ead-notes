@@ -40,7 +40,7 @@ VCS helps with almost all aspects of a project, including:
 
 #### Benefits
 1. It is easy to understand and get started.
-2. You have more conrol over users and access ( since it is served from one place ).
+2. You have more control over users and access ( since it is served from one place ).
 
 #### Drawbacks
 1. Dependent on access to the server.

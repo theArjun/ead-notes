@@ -6,7 +6,7 @@ description: Explains about Read Write Resource-Oriented Services
 ## Design of Read/Write Resource-Oriented Services
 > How read/write resource oriented services are designed ?
 
-The follwing steps are to be done to design a read/write resource-oriented service.
+The following steps are to be done to design a read/write resource-oriented service.
 
 {% include 'soa-and-restful/roa-analysis-and-design/common-steps.md' %}
 
