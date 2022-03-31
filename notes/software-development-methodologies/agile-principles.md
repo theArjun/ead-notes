@@ -77,7 +77,7 @@ Agile test plan includes types of testing done in that iteration like test data 
 | In agile testing, different testing levels overlap.                        | In waterfall testing, testing levels can’t overlap.                                    |
 
 ### Agile Testing vs V Testing
-| Agile Model                                                                       | V-Model                                                                               |
+| Agile Testing                                                                     | V-Testing                                                                             |
 | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | It is software development model in which development and testing are concurrent. | It is also software development model but development and testing are not concurrent. |
 | It consists of different sprints.                                                 | It has two phases Verification and Validation.                                        |
