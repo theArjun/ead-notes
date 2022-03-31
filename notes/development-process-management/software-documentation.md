@@ -55,3 +55,25 @@ UML (Unified Modeling Language) is a standard language for specifying, visualizi
 
 ##### Sequence Diagram
 ![Sequence Diagram](../assets/images/sequence-diagram.png)
+
+
+## Case Study: Hotel Reservation System
+Online Hotel reservation system is used by a customer to search hotel as per their criteria. If the system shows a
+ hotel as per their preference, then the customer makes a reservation by paying for it via credit card. Also, the
+ system facilitates the customer by allowing them to cancel the reservation. The hotel admin monitors the reservations 
+ and cancellations and updates the hotel reservation information. For the above scenario, develop the following 
+ artifacts: 
+ 
+ 1. Use case Model with at least one  include and extend relation where ever required.
+ 2. Sequence Diagram
+ 3. Class Diagram
+
+
+### Use Case Diagram
+![Use Case Diagram](../assets/images/hotel-use-case.svg)
+
+### Sequence Diagram
+![Sequence Diagram](../assets/images/hotel-sequence.svg)
+
+### Class Diagram
+![Class Diagram](../assets/images/hotel-class-diagram.JPG)
