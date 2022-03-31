@@ -40,14 +40,15 @@ Making continuous integration works, we need:
 - Travis CI is a CI platform that automates the process of software testing and deployment of applications. It’s built as a platform that integrates with your GitHub projects so that you can start testing your code on the fly. 
 - With customers like Facebook, Mozilla, Twitter, Heroku, and others, it’s one of the leading continuous integration tools on the market.
 
+![Travis CI](../assets/images/travis-ci-example.png)
+
 ### Key Features
 
-- Free for public open source projected on GitHub
+- Free for public open source projects on GitHub
 - As simple as signing up, adding a project, and you can begin testing
 - Bilingual support so your code runs smooth across all versions
 - Automated pull request verification
 - Works with Email, Slack, HipChat and others for easy notifications
 - Extended API and CMD tools for custom management
-
-> Cost: Free for open repositories, Enterprise for private
+- Cost: Free for open repositories, Enterprise for private
 
