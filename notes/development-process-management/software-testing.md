@@ -76,10 +76,8 @@ Proces of evaluating a software system by manual or automated means to verify th
 | Quality assurance team does verification.                                              | Validation is executed on software code with the help of testing team.                          |
 | It comes before validation.                                                            | It comes after verification.                                                                    |
 | It consists of checking of documents/files and is performed by human.                  | It consists of execution of program and is performed by computer.                               |
-|                                                                                        |                                                                                                 |
 
 ## Test Cases
-
 - A test case is a set of actions performed on a system to determine if it satisfies software requirements and functions correctly. 
 - The purpose of a test case is to determine if different features within a system are performing as expected and to confirm that the system satisfies all related standards, guidelines and customer requirements. 
 - The process of writing a test case can also help reveal errors or defects within the system.
@@ -102,7 +100,7 @@ Proces of evaluating a software system by manual or automated means to verify th
 | SN | Test Cases | Expected Result | Test Result |
 |---|---|---|---|
 | | On Click of | | |
-| 1. | Add Button | At first, user have to fill all fields with valid data, if the accession number book is already issued, then it will give proper message. | Successful |
+| 1. | Add Button | At first, user have to fill all fields with valid data, if the accession number book is already issued, then it will give proper error message. | Successful |
 | 2. | Delete button Button | This deletes the details of the book by using Register No. | Successful |
 | 3. | Update Button | Modified records are updated in database. | Successful |
 | 4. | Search Button | Displays the details of issued book. Otherwise give proper error message. | Successful |
