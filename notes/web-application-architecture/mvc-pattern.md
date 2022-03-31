@@ -77,23 +77,18 @@ interface PersonDAO {
 ```java
 public class Student {
     private int id;
-    private String firstName;
-    private String lastName;
+    private String name;
 
     public void getId() {
         return id;
     }
 
-    public void getFirstName() {
-        return firstName;
-    }
-
-    public void getLastName() {
-        return lastName;
+    public void getName() {
+        return name;
     }
 
     public String getJson() {
-        return "{\"id\":\"" + id + "\",\"firstName\":\"" + firstName + "\",\"lastName\":\"" + lastName + "\"}";
+        return "{\"id\":\"" + id + "\",\"name\":\"" + name + "\"}";
     }
 }
 ```
@@ -106,9 +101,9 @@ public class StudentService {
     public Optional<Student> getStudent(int id) {
         switch (id) {
             case 1:
-                return Optional.of(new Student(1, "Ram", "Sharma"));
+                return Optional.of(new Student(1, "Arjun"));
             case 2:
-                return Optional.of(new Student(2, "Sita", "Sharma"));
+                return Optional.of(new Student(2, "Raju"));
             default:
                 return Optional.empty();
         }
@@ -151,13 +146,12 @@ public class StudentServlet extends HttpServlet {
     </head>
     <body>
     <% 
-        if (request.getAttribute("studentRecord") != null) {
+        if (request.getAttribute("student") != null) {
             Student student = (Student) request.getAttribute("studentRecord");
     %>
     <h1>Student Record</h1>
     <div>ID: <%= student.getId()%></div>
-    <div>First Name: <%= student.getFirstName()%></div>
-    <div>Last Name: <%= student.getLastName()%></div>
+    <div>Name: <%= student.getName()%></div>
     <% 
         } else { 
     %>

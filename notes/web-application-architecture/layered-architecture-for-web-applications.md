@@ -109,8 +109,6 @@ The layers of web application are :
 | `HttpServeletRequest` | `javax.servlet.http.*` |
 | `HttpServletResponse` | `javax.servlet.http.*` |
 | `HttpSession` | `javax.servlet.http.*` |
-| `Filter` | `javax.servlet.*` |
-`javax.servlet.ServletRequest`
 
 #### Steps to Develop Web Application
 | Steps | Description |

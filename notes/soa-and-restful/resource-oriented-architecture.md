@@ -23,7 +23,8 @@ description: Explains about Resource-Oriented Architecture
 | Search | GET |
 | List | GET |
 | Count | GET |
-| --- | --- |
+|  |  |
+
 - Implementations: Spring Restful, Django Rest Framework etc.
 
 ![RestFul](../assets/images/restful.png)
