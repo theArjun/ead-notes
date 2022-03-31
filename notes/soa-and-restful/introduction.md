@@ -30,7 +30,7 @@ description: Explains about web services
 | SOA is used to link modules at run time | ROA is used to provide CRUD operations |
 | Service is a piece of code that performs specific task per request and produce output | Resource can be document or data, result of algorithm. |
 | SOA has more mature tool support. | ROA has less mature tool support. |
-| ROA is implemented using REST services. | SOA is implemented using SOAP services. |
+| SOA is implemented using SOAP services. | ROA is implemented using REST services. |
 | Eg: Accessing Stock Data | Eg: Accessing HTML page using GET Request. |
 
 
