@@ -1,6 +1,6 @@
 ---
 title: Web Application Architecture
-description: Introuction to Web Application Architecture
+description: Introduction to Web Application Architecture
 ---
 
 

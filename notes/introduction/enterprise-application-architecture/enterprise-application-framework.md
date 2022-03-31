@@ -38,16 +38,16 @@ description: Explains about Enterprise Application Framework - Spring, GEAF, Zac
 - It is called a black box model, because we see the inputs and outputs of the system, but not the internal workings of the system.
 
 #### Business Model
-- It shows goals, strategies and processess that are used to support the mission of the organization.
+- It shows goals, strategies and processes that are used to support the mission of the organization.
 
 #### System Model
-- It contains requirements, objects, activities and functiona that implement the business model.
+- It contains requirements, objects, activities and functions that implement the business model.
 
 #### Tech Model
 - It contains the constraints of human, tools, hardware, software and network that implements the system model.
 
 #### Detailed Representation
-- It presents individual, independent components that can be allocated to contracters for implementation.
+- It presents individual, independent components that can be allocated to contractors for implementation.
 
 #### Real System
 -  It depicts the operational system under consideration.
@@ -56,19 +56,19 @@ description: Explains about Enterprise Application Framework - Spring, GEAF, Zac
 ## GEAF
 - Government Enterprise Architecture Framework
 - It promotes consistency in the government models and its business process, services and infrastructure.
-- It guides our transformation towards coherent (संसक्त) digital governement.
+- It guides our transformation towards coherent (संसक्त) digital government.
 - It guides an organization transition to work in connected and digital world.
     - It provides a unifying common language.
     - Categorizes and describes the business processes and services.
     - Categorizes and describes the relevant standards and guidelines.
-    - Defines set of refernce models and patterns.
+    - Defines set of reference models and patterns.
     - Defines and identifies government business capabilities.
 
 ### Components
 1. A layer architecture framework
 2. Reference architectures
-3. Toolkits and Guidelines
-4. GEA Standard Refernce
+3. Toolkit and Guidelines
+4. GEA Standard References
 
 ### Benefits
 1. Helps in to understand your current business.

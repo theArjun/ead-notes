@@ -13,7 +13,7 @@ description: Introduction to Enterprise Application Architecture
 
 ## Enterprise
 - Enterprise essentially means that the company has multiple levels,
-  locations, division or departments that all collborate to achieve
+  locations, division or departments that all collaborate to achieve
   big picture business objectives.  
   For eg: Customer Relationship Management (CRM) is often referred as
   enterprise application (large scale business).
@@ -24,11 +24,11 @@ description: Introduction to Enterprise Application Architecture
   in order to solve enterprise problem. It denotes a software platform
   that is quite complex and comparatively huge for small business.  
   Enterprise application demands high requirements in terms of security.
-  User access and maintainence [application for large scale business].
+  User access and maintenance [application for large scale business].
 
 ## Technologies used to develop Enterprise Application
 
- - User Interface layer (Presentation Layer) - AWT, Swing, HTML, ISP, Velocity Framework
+ - User Interface layer (Presentation Layer) - AWT, Swing, HTML, JSP, Velocity Framework
  - Business Processing Layer - Servlets, JSP, EJB
  - Data Storage and Access Layer (Persistence Layer) - JDBC, EJB
 
@@ -43,7 +43,7 @@ Java is widely used for developing enterprise applications (EA) because:
 
 1. Learning Curve
 2. Java has a vast array of libraries, frameworks, tools and server provider.
-3. Platform indeependence.
+3. Platform independence.
 4. Maturity
 5. Java ensures security, stability, robustness, high performance etc.
 
@@ -66,7 +66,7 @@ a. Desktop Application
 - Runs on single tier architecture.
 - All the presentation logic, business logic and data storage and access logic resides in
   a single machine.
-- Morever, it can be part of network but the application and its database stay in the same machine.
+- Moreover, it can be part of network but the application and its database stay in the same machine.
 - It doesn't support multiple users concurrently.
 
 b. Enterprise Application  
