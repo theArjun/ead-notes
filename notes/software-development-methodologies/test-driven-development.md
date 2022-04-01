@@ -107,7 +107,7 @@ Suppose we are going to develop a calculator which perfroms addition.
         @Test
         public void testDisplayStudentName() {
             Student student = new Student();
-            String studentName = student.displayStudentName(Arjun, Adhikari);
+            String studentName = student.displayStudentName("Arjun", "Adhikari");
             assertEquals("Arjun Adhikari", studentName);
         }
     }

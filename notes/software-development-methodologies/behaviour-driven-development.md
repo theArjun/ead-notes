@@ -8,7 +8,7 @@ BDD combines the general technique of principles of TDD with ideas from Domain D
 
 
 BDD is largely faciliated throught the use of a simple domain specific language using natural language constructs that can express the behaviour and the expected outcomes.  
-BDD is considered an effective technical practice especially then the problem space of the business problem to solve is complex.
+BDD is considered an effective technical practice especially when the problem space of the business problem to solve is complex.
 
 
 ## Principles of BDD
