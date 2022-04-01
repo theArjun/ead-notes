@@ -77,14 +77,7 @@ Get the only object from the singleton class.
 ```
 ### Database Connection
 
-#### Early Initialization
-`JDBCSingletonEarly.java`
+`JDBCSingleton.java`
 ```java
-{% include 'design-patterns/singleton-code/JDBCSingletonEarly.java' %}
-```
-
-#### Lazy Initialization
-`JDBCSingletonLazy.java`
-```java
-{% include 'design-patterns/singleton-code/JDBCSingletonLazy.java' %}
+{% include 'design-patterns/singleton-code/JDBCSIngleton.java' %}
 ```
