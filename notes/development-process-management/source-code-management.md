@@ -78,3 +78,25 @@ VCS helps with almost all aspects of a project, including:
 | **Figure** | ![Centralized VCS](../assets/images/centralized-vcs.png) | ![Distributed VCS](../assets/images/distributed-vcs.png) |
 | **Example** | Eg: SVN (Subversion) | Eg: Git |
 
+### Concurrent Version System (CVS)
+- Concurrent versions System is functional version control system which is developed by Dick Grune as series of shell scripts. 
+- This helps the teams to be connected to the changes that are measured into repository when working on software. 
+- This tool was used as the version control system for long for time. 
+- It is reliable software tool but with new challenges other alternatives made it used as limited.
+
+Following are **some features** of CVS :
+
+- It is one of the reliable Version Control System
+- It does not allows commit with errors to made.
+- Scripts are written in RCS.
+- User can only store files into repository.
+
+**Advantages** :
+
+- CVS is one of the reliable version control software.
+- Changes are committed with full change.
+
+**Disadvantages** :
+
+- CVS changes are time consuming.
+- CVS do not commit if there is error into the commit.

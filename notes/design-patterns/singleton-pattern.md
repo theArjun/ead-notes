@@ -79,5 +79,5 @@ Get the only object from the singleton class.
 
 `JDBCSingleton.java`
 ```java
-{% include 'design-patterns/singleton-code/JDBCSIngleton.java' %}
+{% include 'design-patterns/singleton-code/JDBCSingleton.java' %}
 ```
