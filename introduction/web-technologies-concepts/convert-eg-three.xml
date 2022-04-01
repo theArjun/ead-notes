@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<order id="1234" data="234234">
+    <customer first_name="John" last_name="Doe">
+        <email>johndoe@gmail.com</email>
+        <phone>123456789</phone>
+    </customer>
+    <content>
+        <order_line item="H252" quantity="2">
+            <unit_price>10.00</unit_price>
+        </order_line>
+        <order_line item="H253" quantity="1">
+            <unit_price>20.00</unit_price>
+        </order_line>
+    </content>
+    <credit_card number="1234123412341234" expiry="12/12" cvv="123" type="VISA" />
+</order>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<countries>
+    <country>
+        <name>Nepal</name>
+        <capital>Kathmandu</capital>
+        <feature>Everest</feature>
+    </country>
+    <country>
+        <name>India</name>
+        <capital>New Delhi</capital>
+        <feature>Taj Mahal</feature>
+    </country>
+    <country>
+        <name>China</name>
+        <capital>Beijing</capital>
+        <feature>Great Wall</feature>
+    </country>
+</countries>
